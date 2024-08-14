@@ -33,12 +33,11 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
+            Hi! I'm
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              Steven Deng{" "}
             </span>
-            project exprience
           </span>
         </motion.div>
 
@@ -46,15 +45,11 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I&apos;m a junior at Carnegie Mellon University studying computer science and finance.
+          I am interested in the intersections of finance, real estate and tech.
+          Check out my personal projects and skills below.
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn More!
-        </motion.a>
+      
       </div>
 
       <motion.div
@@ -62,10 +57,10 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="/mainIconsdark.svg"
+          src="/pfp.png"
           alt="work icons"
-          height={650}
-          width={650}
+          height={500}
+          width={500}
         />
       </motion.div>
     </motion.div>
